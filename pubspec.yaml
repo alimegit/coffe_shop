@@ -44,11 +44,7 @@ dependencies:
   zoom_tap_animation: ^1.1.0
   shrink_sidemenu: ^2.0.0+2-null-safety
   adaptive_theme: ^3.6.0
-
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-
+  carousel_slider: ^4.2.1
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
@@ -87,15 +83,12 @@ flutter:
     - assets/images/
     - assets/icons/
   fonts:
-    - family: Roboto
+    - family: Besley
       fonts:
-        - asset: assets/fonts/roboto/Roboto-Black.ttf
-        - asset: assets/fonts/roboto/Roboto-Bold.ttf
-        - asset: assets/fonts/roboto/Roboto-Italic.ttf
-        - asset: assets/fonts/roboto/Roboto-Light.ttf
-        - asset: assets/fonts/roboto/Roboto-Medium.ttf
-        - asset: assets/fonts/roboto/Roboto-Regular.ttf
-        - asset: assets/fonts/roboto/Roboto-ThinItalic.ttf
+        - asset: assets/fonts/besley/Besley-Italic-VariableFont_wght.ttf
+        - asset: assets/fonts/besley/Besley-VariableFont_wght.ttf
+
+
 
     # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

@@ -1,6 +1,8 @@
+
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:to_do_app/hello_screen.dart';
+import 'package:to_do_app/screens/home_screen/home_screen.dart';
+import 'package:to_do_app/screens/splash_screen.dart';
 
 
 class AppRoute {
@@ -8,10 +10,14 @@ class AppRoute {
     switch (settings.name) {
       case "/":
         {
-          return navigate(const HelloScreen());
+          return navigate(const SplashScreen());
 
         }
+      case "/home_route":
+        {
+          return navigate(const HomeScreen());
 
+        }
       default:
         {
           return navigate(
@@ -35,4 +41,5 @@ class AppRoute {
 
 class RouteNames {
   static const String helloScreen = "/";
+  static const String homeScreen = "/home_route";
 }
